@@ -1,0 +1,99 @@
+body {
+    font-family: system-ui, sans-serif;
+	background: #16161a;
+    color: #94a1b2;
+    height: 9000px;
+    margin: 0;
+    -ms-overflow-style: none; /* for Internet Explorer & Edge */
+    scrollbar-width: none; /* for Firefox */
+    overflow-y: scroll;
+}
+body::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari & Opera */
+}
+#mainNavbar {
+    box-shadow: #2cb67d(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    background-color: #2e2e2e;
+    position: absolute;
+    height: 64px;
+    width: 100%;
+    margin: 0;
+}
+nav input {
+    margin: 17px 6% 0px 70%;
+    border-radius: 5px;
+    position: absolute;
+    font-size: 10pt;
+    padding: 6px;
+    border: none;
+    width: 20%;
+    top: 0;
+}
+nav li {
+    display: inline-block;
+    padding: 5px 6% 0px;
+    text-align: center;
+    list-style: none;
+}
+nav li:hover {
+    border-bottom: medium solid #FFFFF1;
+}
+nav ul {
+    padding: 0 0 0 5%;
+    width: 50%;
+}
+#mainNavbar a {
+    text-decoration: none;
+    outline: none;
+}
+a:link {
+    color: #FFFFF1;
+}
+a:visited {
+    color: #FFFFF1;
+}
+a:focus {
+    border-bottom: 1px solid;
+}
+a:hover {
+    color: #FFFFF1;
+}
+a:active {
+    color: #645892;
+}
+#tabDivBox {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin: 125px 0 0 0;
+}
+#projectSenaiDivBox {
+    box-shadow: #2cb67d(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    width: 65%;
+    margin: 0 17.5% 0 17.5%;
+    background-color: #fffffe;
+    color: #2e2e2e;
+}
+#projectDivContent {
+    padding: 10px 20px 20px 20px;
+}
+#contentTitle {
+    margin: 10px 0 0 0;
+}
+#contentSubtitle {
+    margin: 0 0 10px 0;
+}
+#projectHomeDivBox {
+    box-shadow: #2cb67d(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    width: 65%;
+    margin: 26px 17.5% 0 17.5%;
+    background-color: #fffffe;
+    color: #2e2e2e;
+}
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #2cb67d;
+    position: absolute;
+    bottom: 0;
+}
